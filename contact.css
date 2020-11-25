@@ -1,0 +1,174 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #79c4ca;
+  font-family: "Questrial", sans-serif;
+  font-size: 12pt;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  color: #404040;
+}
+
+p,
+ol,
+ul {
+  margin-top: 0;
+}
+
+ol,
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+p {
+  line-height: 180%;
+}
+
+a {
+  color: #79c4ca;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.container {
+  margin: 0px auto;
+  width: 1200px;
+}
+
+#header-wrapper {
+  overflow: hidden;
+  padding: 2em 0em;
+  background: #fff;
+}
+
+#header {
+  position: relative;
+}
+
+#logo h1 {
+  display: inline-block;
+  margin-bottom: 0.2em;
+  font-size: 3.5em;
+}
+
+#logo a {
+  text-decoration: none;
+  color: #79c4ca;
+}
+
+#logo span {
+  padding-right: 0.5em;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  color: #79c4ca;
+}
+
+#logo span a {
+  color: #79c4ca;
+}
+
+#menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#menu ul {
+  display: inline-block;
+  padding: 1em 2em 0em 2em;
+  text-align: center;
+}
+
+#menu li {
+  display: inline-block;
+}
+
+#menu li a,
+#menu li span {
+  display: inline-block;
+  padding: 1.3em 1.5em;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-transform: uppercase;
+  outline: 0;
+}
+
+/* #menu li:hover a,
+  #menu li.active a,
+  #menu li.active span {
+  } */
+
+#menu .current_page_item a {
+  background: #79c4ca;
+  color: #fff;
+}
+
+#banner {
+  padding: 4em 0em 3em 0em;
+}
+
+#copyright {
+  overflow: hidden;
+  padding: 5em 0em;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  text-align: center;
+}
+
+#copyright p {
+  letter-spacing: 1px;
+  font-size: 0.9em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#copyright a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+ul.contact {
+  margin: 0;
+  padding: 2em 0em 0em 0em;
+  list-style: none;
+}
+
+ul.contact li {
+  display: inline-block;
+  padding: 0em 0.1em;
+  font-size: 1em;
+}
+
+ul.contact li span {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.contact li a {
+  color: #fff;
+}
+
+ul.contact li a:before {
+  display: inline-block;
+  background: #57aead;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+}
