@@ -1,30 +1,143 @@
 <!DOCTYPE html>
 
 <html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>My Portfolio | Contact</title>
-	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Quicksand:400,700|Questrial" rel="stylesheet" />
-	<link href="contact.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
-</head>
-<body>
-<div id="header-wrapper">
-	<div id="header" class="container">
-		<div id="logo">
-			<h1><a href="https://stanleysterling.github.io/portfolio/">STANLEY HUANG</a></h1>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>My Portfolio | Contact</title>
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Quicksand:400,700|Questrial" rel="stylesheet" />
+		<link href="contact.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+		<!-- Template -->
+		<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+		<!-- <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css"> -->
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+		<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+		<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+		<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+		<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+		<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+		<link rel="stylesheet" type="text/css" href="vendor/noui/nouislider.min.css">
+		<link rel="stylesheet" type="text/css" href="css/util.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<div id="header-wrapper">
+			<div id="header" class="container">
+				<div id="logo">
+					<h1><a href="https://stanleysterling.github.io/portfolio/">STANLEY HUANG</a></h1>
+				</div>
+				<div id="menu">
+					<ul>
+						<li><a href="index.html" accesskey="1" title="My Portfolio | Home">Home</a></li>
+						<li><a href="cvpage.html" accesskey="2" title="My Portfolio | CV Page">CV Page</a></li>
+						<li class="current_page_item"><a href="contact.html" accesskey="3" title="My Portfolio | Contact">Contact</a></li>
+						<li><a href="project.html" accesskey="4" title="My Portfolio | Project">Project</a></li>
+					</ul>
+				</div>
+			</div>
+			<div>
 		</div>
-		<div id="menu">
-			<ul>
-				<li><a href="index.html" accesskey="1" title="My Portfolio | Home">Home</a></li>
-				<li><a href="cvpage.html" accesskey="2" title="My Portfolio | CV Page">CV Page</a></li>
-				<li class="current_page_item"><a href="contact.html" accesskey="3" title="My Portfolio | Contact">Contact</a></li>
-				<li><a href="project.html" accesskey="4" title="My Portfolio | Project">Project</a></li>
-			</ul>
+		<div id="page-wrapper-activities">
+			<div id="page" class="container">
+				<div id="sidebar-address">
+					<div class="title">
+						<h2>Address</h2>
+						<p>Please find me in <b>Pacific American School</b>, I won't let you know where I live haha</p>
+						<br>
+							<div id="address-wrapper">
+								<p id="pas"><b>Pacific American School</b></p>
+								<p>307 Sec. 1, Xinglong Rd., Zhubei City, Hsinchu County, Taiwan (R.O.C.)</p>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28969.5946323017!2d120.98652733694011!3d24.822856084071653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3468367343ef0e43%3A0x853ed6bbd57eb08d!2sPacific%20American%20School!5e0!3m2!1sen!2stw!4v1606811575532!5m2!1sen!2stw" width="500" height="405" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+							</div>
+					</div>
+				</div>
+				<div class="wrap-contact100">
+					<form class="contact100-form validate-form">
+						<h2>
+							Contact Me
+						</h2>
+		
+						<div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Name">
+							<span class="label-input100">Full Name *</span>
+							<input class="input100" type="text" name="name" placeholder="Enter Your Name">
+						</div>
+		
+						<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Email (e@a.x)">
+							<span class="label-input100">Email *</span>
+							<input class="input100" type="text" name="email" placeholder="Enter Your Email ">
+						</div>
+		
+						<div class="wrap-input100 bg1 rs1-wrap-input100">
+							<span class="label-input100">Phone</span>
+							<input class="input100" type="text" name="phone" placeholder="Enter Number Phone">
+						</div>
+		
+						<!-- <div class="w-full dis-none js-show-service">
+							<div class="wrap-contact100-form-radio">
+								<span class="label-input100">Who are you?</span>
+		
+								<div class="contact100-form-radio m-t-15">
+									<input class="input-radio100" id="radio1" type="radio" name="type-product" value="physical" checked="checked">
+									<label class="label-radio100" for="radio1">
+										Classmate
+									</label>
+								</div>
+		
+								<div class="contact100-form-radio">
+									<input class="input-radio100" id="radio2" type="radio" name="type-product" value="digital">
+									<label class="label-radio100" for="radio2">
+										Teacher
+									</label>
+								</div>
+		
+								<div class="contact100-form-radio">
+									<input class="input-radio100" id="radio3" type="radio" name="type-product" value="service">
+									<label class="label-radio100" for="radio3">
+										Parent
+									</label>
+								</div>
+
+								<div class="contact100-form-radio">
+									<input class="input-radio100" id="radio4" type="radio" name="type-product" value="service">
+									<label class="label-radio100" for="radio4">
+										Others
+									</label>
+								</div>
+							</div>
+
+						</div> -->
+		
+						<div class="wrap-input100 validate-input bg0 rs1-alert-validate" data-validate = "Please Type Your Message">
+							<span class="label-input100">Message</span>
+							<textarea class="input100" name="message" placeholder="Your message here..."></textarea>
+						</div>
+		
+						<div class="container-contact100-form-btn">
+							<button class="contact100-form-btn">
+								<span>
+									Submit
+									<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+								</span>
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
 		</div>
-    </div>
-    <div id="copyright" class="container">
+	</div>
+	<div id="wrapper2">
+		<div class="container">
+			<div class="title">
+				<h2>More contact info below</h2>
+			</div>
+			<p>Below are five of my most common-using social media and communication channels. 
+				Feel free to visit any of them or send me a mail. 
+				If you have any suggestions or anything to tell me, you are welcomed to fill out the blanks above!</p>
+		</div>
+	</div>
+	<div id="copyright" class="container">
 		<p>&copy; Untitled. All rights reserved. | Photos from Google | Design by STANLEY HUANG.</p>
 			<ul class="contact">
 				<li><a href="https://www.facebook.com/stanley.huang.1806/" target="_blank" class="icon icon-facebook"><span>Facebook</span></a></li>
