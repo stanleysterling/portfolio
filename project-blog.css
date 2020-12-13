@@ -167,10 +167,6 @@ a:hover {
   margin: 0 1.2em;
 }
 
-#banner {
-  padding: 4em 0em 3em 0em;
-}
-
 /* .wrapper {
   overflow: hidden;
   padding: 5em 0em 5em 0em;
@@ -249,87 +245,6 @@ ul.contact li a:before {
   border-radius: 20px;
   text-align: center;
   color: #272925;
-}
-
-#three-column {
-  overflow: hidden;
-  text-align: center;
-  color: #fff;
-}
-
-#three-column h2 {
-  margin: 1em 0em;
-  font-size: 1.5em;
-  font-weight: 700;
-}
-
-#three-column .icon {
-  position: relative;
-  display: block;
-  margin: 0px auto 0.8em auto;
-  background: none;
-  line-height: 150px;
-  font-size: 4em;
-  width: 150px;
-  height: 150px;
-  border-radius: 100px;
-  border: 6px solid #67128f;
-  text-align: center;
-  color: #fff;
-}
-
-#tbox-wrap {
-  display: flex;
-  justify-content: space-around;
-}
-
-#three-column #tbox1,
-#three-column #tbox2 {
-  width: 400px;
-  padding: 76px 50px;
-}
-
-#three-column #tbox1 {
-  background: #a8c269;
-}
-
-#three-column #tbox1 .button {
-  background: #809944;
-}
-
-#three-column #tbox2 {
-  background: #a8c269;
-}
-
-#three-column #tbox2 .button {
-  background: #809944;
-}
-
-#three-column #tbox3 {
-  background: #a8c269;
-}
-
-#three-column #tbox3 .button {
-  background: #809944;
-}
-
-#three-column .title {
-  text-align: center;
-}
-
-#three-column .title h2 {
-  font-size: 1.6em;
-  color: #fff;
-}
-
-#three-column .title .byline {
-  padding-top: 0.5em;
-  font-size: 0.9em;
-  color: #858585;
-}
-
-#three-column .arrow-down {
-  border-top-color: #292929;
 }
 
 
