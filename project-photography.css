@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: "Questrial", sans-serif;
+}
+
+img {
+    width: 25vw;
+    height: 20vh;
+    /* display: inline-block; */
+    float: left;
+    transition: transform .3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.25);
+}
+
+#default-text {
+    color: white;
+    letter-spacing: 3px;
+}
+
+.singapore:hover ~ #singapore,
+.fukuoka:hover ~ #fukuoka,
+.guam:hover ~ #guam,
+.sydney:hover ~ #sydney,
+.houston:hover ~ #houston,
+.dallas:hover ~ #dallas,
+.huntsville:hover ~ #huntsville,
+.paris:hover ~ #paris,
+.london:hover ~ #london,
+.san-francisco:hover ~ #san-francisco,
+.los-angeles:hover ~ #los-angeles,
+.sacramento:hover ~ #sacramento,
+.berlin:hover ~ #berlin,
+.madrid:hover ~ #madrid,
+.tokyo:hover ~ #tokyo,
+.seoul:hover ~ #seoul,
+.amsterdam:hover ~ #amsterdam,
+.rotterdam:hover ~ #rotterdam {
+    display: flex;
+}
+
+.singapore:hover ~ #default-text,
+.fukuoka:hover ~ #default-text,
+.guam:hover ~ #default-text,
+.sydney:hover ~ #default-text,
+.houston:hover ~ #default-text,
+.dallas:hover ~ #default-text,
+.huntsville:hover ~ #default-text,
+.paris:hover ~ #default-text,
+.london:hover ~ #default-text,
+.san-francisco:hover ~ #default-text,
+.los-angeles:hover ~ #default-text,
+.sacramento:hover ~ #default-text,
+.berlin:hover ~ #default-text,
+.madrid:hover ~ #default-text,
+.tokyo:hover ~ #default-text,
+.seoul:hover ~ #default-text,
+.amsterdam:hover ~ #default-text,
+.rotterdam:hover ~ #default-text {
+    display: none;
+}
+
+.san-francisco,
+.los-angeles,
+.sacramento,
+.berlin,
+.madrid,
+.tokyo,
+.seoul,
+.amsterdam,
+.rotterdam {
+    order: 1;
+}
+
+#singapore,
+#fukuoka,
+#guam,
+#sydney,
+#houston,
+#dallas,
+#huntsville,
+#paris,
+#london,
+#san-francisco,
+#los-angeles,
+#sacramento,
+#berlin,
+#madrid,
+#tokyo,
+#seoul,
+#amsterdam,
+#rotterdam {
+    color: white;
+    display: none;
+    text-transform: uppercase;
+    font-size: 3em;
+    letter-spacing: 0.1em;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper > div {
+    width: 50vw;
+    height: 20vh;
+    font-size: 3em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    width: 50vw;
+    height: 20vh;
+    overflow: hidden;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center h2 {
+    font-size: 2.8em;
+    color: white;
+}
+
+.monkey {
+    width: 100vw;
+    height: 100vh;
+}
+
+#back p a {
+    background: red;
+    color: #fff;
+    display: inline-block;
+    padding: 1.9em 2.2em;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 600;
+    text-transform: uppercase;
+    outline: 0;
+}
+  
+#back {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-left: 427px;
+    margin-top: -300px;
+    transform: rotate(67.5deg);
+}
