@@ -445,3 +445,25 @@ ul.default a:hover {
   padding-bottom: 0.5em;
   font-weight: 300;
 }
+
+
+@media only screen and (max-width: 375px) {
+
+  #logo,
+  .container {
+    width: auto;
+  }
+
+  #logo h1 {
+    margin: auto;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #page-wrapper{
+    max-width: 100%;
+  }
+}
